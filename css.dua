@@ -1,0 +1,832 @@
+@-webkit-keyframes animationscale {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}
+
+@keyframes animationscale {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}
+
+@-webkit-keyframes animationcountertime {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@keyframes animationcountertime {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translate(1px, 1px) rotate(0deg);
+            transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+            transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+            transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    -webkit-transform: translate(3px, 2px) rotate(0deg);
+            transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+            transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+            transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+            transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(3px, 1px) rotate(-1deg);
+            transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+            transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    -webkit-transform: translate(1px, 2px) rotate(0deg);
+            transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+            transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: translate(1px, 1px) rotate(0deg);
+            transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+            transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+            transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    -webkit-transform: translate(3px, 2px) rotate(0deg);
+            transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+            transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+            transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+            transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(3px, 1px) rotate(-1deg);
+            transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+            transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    -webkit-transform: translate(1px, 2px) rotate(0deg);
+            transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+            transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+
+.animationscale{
+    -webkit-animation-name: animationscale;
+    animation-name: animationscale;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.animationcountertime{
+    -webkit-animation-name: animationcountertime;
+    animation-name: animationcountertime;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.animationshake{
+    -webkit-animation-name: shake;
+    animation-name: shake;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@font-face {
+  font-family: 'andina';
+  src: url("/fonts/andina.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ardila';
+  src: url("/fonts/ardila.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'autumn';
+  src: url("/fonts/autumn.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'agatha';
+  src: url("/fonts/agatha.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'alesa';
+  src: url("/fonts/alesa.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'mylove';
+  src: url("/fonts/mylove.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'inlove';
+  src: url("/fonts/inlove.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'lovemy';
+  src: url("/fonts/lovemy.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'theheart';
+  src: url("/fonts/theheart.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url("/fonts/roboto.ttf");
+  font-display: swap;
+}
+
+:root {
+  --primaryColor:#435c68;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Track
+::-webkit-scrollbar-track {
+ background: #f1f1f1;
+}*/
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 9px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+:root {
+  scroll-behavior: unset;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 5px;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+svg {
+  width: 15px;
+  height: 15px;
+}
+
+svg path {
+  fill: var(--primaryColor);
+}
+
+iframe {
+  border-radius: 9px;
+  border: 2px dashed #bfbfbf;
+}
+
+.backsound {
+  position: fixed;
+  right: 9px;
+  top: 50%;
+  z-index: 97;
+  padding: 5px;
+  cursor: pointer;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #dedede;
+}
+
+.backsound svg {
+  width: 24px;
+  height: 24px;
+}
+
+.backsound svg path {
+  fill: var(--primaryColor);
+}
+
+.backsound .iconplay {
+  display: none;
+}
+
+.backsound .iconpause {
+  display: inline;
+}
+
+.backsound.play .iconplay {
+  display: inline;
+}
+
+.backsound.play .iconpause {
+  display: none;
+}
+
+.frame {
+  margin: 0;
+  padding: 99px 9px;
+  border-left: 5px #dddac7 solid;
+  border-right: 5px #dddac7 solid;
+  border-radius: 9px;
+  min-height: calc(100vh - 69px);
+}
+
+.frame::before {
+  content: '';
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: calc(100% - 36px);
+  height: 99px;
+  margin: 0 18px;
+  background-image: url(../images/flower.png);
+  background-size: contain;
+      background-position: center;
+      background-repeat: repeat-x;
+}
+
+body {
+  padding-left: 3px;
+  padding-right: 3px;
+  color: darkslategray;
+  background-color: #f5eee1;
+  background-image: url(/images/bg.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+body *:not(p){
+  text-shadow: 3px 3px 5px #4c4c4c59;
+}
+
+section {
+  min-height: calc(100vh - 69px);
+}
+
+section.card {
+  border-radius: 9px;
+}
+
+.container {
+  max-width: 750px;
+  padding-top: 9px;
+}
+
+.container .card {
+  position: relative;
+}
+
+.container:not(.modal-body) {
+  padding-bottom: 61px;
+}
+
+.container.class-crush * {
+  position: absolute;
+}
+
+#coverModal .card {
+  padding: 17px;
+  border-radius: 19px;
+  -webkit-box-shadow: 1px 1px 5px grey;
+          box-shadow: 1px 1px 5px grey;
+}
+
+#coverModal .card svg {
+  width: 33px;
+  height: 33px;
+}
+
+#coverModal .card svg path {
+  fill: white;
+}
+
+#coverModal .card .to {
+  border: 1px dashed;
+  border-radius: 9px;
+  margin: 9px;
+  padding: 9px 3px;
+}
+
+#coverModal .card .penerima {
+  font-family: 'roboto';
+  font-size:15pt;
+}
+
+#coverModal .card .judul {
+  font-family: 'lovemy';
+  font-size: 23pt;
+  line-height: 0.9;
+  text-shadow: 3px 3px 5px white;
+}
+
+#coverModal .card .judul .mempelai-pria, #coverModal .card .judul .mempelai-wanita {
+  font-family: 'agatha';
+}
+
+#coverModal .card .judul .mempelai-pria {
+  color: #767ba2;
+}
+
+#coverModal .card .judul .mempelai-wanita {
+  color: #893745;
+}
+
+#coverModal .card .cover-gambar {
+  margin: 0 auto;
+  position: relative;
+  width: 61%;
+  max-width: 200px;
+}
+
+#coverModal .card .cover-gambar img {
+  width: 100%;
+}
+
+#coverModal .card .cover-gambar::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-transform: scale(1.003);
+          transform: scale(1.003);
+  top: 0;
+  left: 0%;
+  background-image: url("../images/wedding.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.navmanu {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.navmanu .container {
+  padding: 0 5px;
+}
+
+.navmanu .container .nav-tabs {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  border-bottom: none;
+}
+
+.navmanu .container .nav-tabs .nav-link {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border-radius: 0;
+  font-size: 8pt;
+  padding: 0.5rem 0.25rem;
+  font-weight: 600;
+  border: none;
+}
+
+.navmanu .container .nav-tabs .nav-link p {
+  margin: 0;
+}
+
+.navmanu .container .nav-tabs .nav-link.active {
+  background-color: #f5eee1;
+}
+
+#nav-cover .img-cover {
+  margin: 0 auto;
+  max-width: 279px;
+}
+
+#nav-cover h1.title {
+  font-family: 'lovemy';
+  font-size: 27pt;
+  margin-top: -197px;
+  position: absolute;
+  width: 100%;
+  color: slategrey;
+  z-index: 1;
+  line-height: 1;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: scale(0) translateY(-250px);
+          transform: scale(0) translateY(-250px);
+}
+
+#nav-cover h1.title.animate {
+  -webkit-transform: scale(1) translateY(0);
+          transform: scale(1) translateY(0);
+}
+
+#nav-cover h1.title span {
+  line-height: .7;
+}
+
+#nav-cover span.tgl-acara {
+  font-family: 'lovemy';
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#nav-cover span.tgl-acara.animate {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#nav-cover .counter {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  margin: 0 3px;
+  padding: 5px;
+  background-color: var(--primaryColor);
+  color: white;
+  font-size: 14pt;
+}
+
+#nav-cover .counter span {
+  font-size: 10pt;
+}
+
+#nav-pengantin .card {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#nav-pengantin .card.animate {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#nav-pengantin .card .title {
+  font-family: 'autumn';
+}
+
+#nav-pengantin .card h3 {
+  font-family: 'theheart';
+}
+
+#nav-pengantin .card p {
+  margin: 9px;
+}
+
+#nav-pengantin .card span {
+  font-family: 'lovemy';
+  font-size: 27pt;
+}
+
+#nav-acara .card .frame {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+#nav-acara .card .frame.animate {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+#nav-acara .card .title {
+  font-family: 'autumn';
+}
+
+#nav-acara .card .date {
+  font-family: 'andina';
+  font-size: 9pt;
+  margin: 27px 0;
+}
+
+#nav-acara .card p {
+  padding: 9px 0;
+  border: 1px dashed #cecece;
+  background-color: white;
+  border-radius: 19px;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+#nav-acara .card p.animate {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#nav-cerita .card .frame {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+#nav-cerita .card .frame.animate {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+#nav-cerita .card .title {
+  font-family: 'autumn';
+}
+
+#nav-cerita .card .date {
+  font-family: 'Autumn';
+  font-size: 9pt;
+  width: 69px;
+}
+
+#nav-cerita .card .icon {
+  margin: 0 5px;
+  min-height: 69px;
+  text-align: center;
+}
+
+#nav-cerita .card .icon svg {
+  display: block;
+}
+
+#nav-cerita .card .icon span {
+  height: 100%;
+  width: 3px;
+  border-radius: 9px;
+  display: inline-block;
+  background-color: var(--primaryColor);
+}
+
+#nav-cerita .card .title-ucapan {
+  font-family: 'theheart';
+}
+
+#nav-cerita .story {
+  border-radius: 9px;
+  border: 1px gray dashed;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 9px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+  background-color: white;
+}
+
+#nav-cerita .story.animate {
+  background-color: var(--primaryColor);
+  color: white;
+}
+
+#nav-galeri .card .title {
+  font-family: 'autumn';
+}
+
+#nav-galeri .card .date {
+  font-family: 'andina';
+  font-size: 9pt;
+  margin: 27px 0;
+}
+
+#nav-galeri .card .cardimg {
+  padding: 9px;
+}
+
+#nav-galeri .card .foto-galeri {
+  width: 100%;
+  border-radius: 17px;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 5px grey;
+          box-shadow: 2px 2px 5px grey;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: scale(0) translateY(250px);
+          transform: scale(0) translateY(250px);
+}
+
+#nav-galeri .card .foto-galeri.animate {
+  -webkit-transform: scale(1) translateY(0);
+          transform: scale(1) translateY(0);
+}
+
+#nav-tamu .card .title {
+  font-family: 'autumn';
+}
+
+#nav-tamu .card #form-konfiramsi-kehadiran {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  height: 1px;
+  overflow: hidden;
+}
+
+#nav-tamu .card #form-konfiramsi-kehadiran.animate {
+  height: 350px;
+}
+
+#nav-tamu .card .form-control {
+  border-radius: 19px;
+  z-index: 2;
+  position: relative;
+}
+
+#nav-tamu .card svg {
+  width: 21px;
+  height: 21px;
+  vertical-align: sub;
+}
+
+#nav-tamu .card .wishes .wish {
+  padding: 9px;
+  border: 1px dashed;
+  background-color: white;
+  border-radius: 9px;
+  margin-bottom: 5px;
+}
+
+#nav-tamu .card .wishes .wish .user {
+  font-weight: bold;
+}
+
+#nav-tamu .card .wishes .wish .confirm {
+  padding: 0px 9px;
+  border-radius: 9px;
+  border: 1px solid #b6b5b5;
+  font-size: 9pt;
+  margin-left: 3px;
+}
+
+#nav-tamu .card .wishes .wish .time {
+  display: block;
+  font-size: 9pt;
+  margin: 9px 0;
+}
+
+#nav-tamu .card .wishes .wish .message {
+  display: block;
+}
+
+#nav-lainnya .card .title {
+  font-family: 'autumn';
+}
+
+#nav-lainnya .card .angpao, #nav-lainnya .card .kado {
+  padding: 9px;
+  border: 1px dashed;
+  background-color: white;
+  border-radius: 19px;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+#nav-lainnya .card .angpao.animate, #nav-lainnya .card .kado.animate {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+#nav-lainnya .card .pengantin {
+  font-family: 'theheart';
+}
+
+footer {
+  padding: 19px 9px;
+  background-color: #1c1e22;
+  color: white;
+  margin-left: -3px;
+  margin-right: -3px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 9pt;
+}
+
+footer img {
+  width: 55px;
+}
+
+footer strong {
+  display: block;
+}
+
+footer a {
+  text-decoration: none;
+  color: wheat;
+}
+/*# sourceMappingURL=style.css.map */
